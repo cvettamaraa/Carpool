@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CarpoolApp</string>
+
+    <string-array name="user_types">
+        <item>Driver</item>
+        <item>Passenger</item>
+    </string-array>
+</resources>

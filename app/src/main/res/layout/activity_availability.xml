@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Start Hour -->
+    <EditText
+        android:id="@+id/edtStartHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Hour (0-23)"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <!-- Start Minute -->
+    <EditText
+        android:id="@+id/edtStartMinute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Minute (0-59)"
+        android:inputType="number"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- End Hour -->
+    <EditText
+        android:id="@+id/edtEndHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Hour (0-23)"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <!-- End Minute -->
+    <EditText
+        android:id="@+id/edtEndMinute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Minute (0-59)"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSaveAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Availability"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+

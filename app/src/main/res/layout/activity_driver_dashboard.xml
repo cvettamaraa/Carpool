@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Driver Details Section -->
+    <TextView
+        android:id="@+id/tvDriverDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Driver Details"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvVehicleDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Details: "
+        android:textSize="16sp" />
+
+    <!-- Availability Section -->
+    <TextView
+        android:id="@+id/tvAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Availability: "
+        android:textSize="16sp" />
+
+    <!-- Rate Passenger Button -->
+    <Button
+        android:id="@+id/btnRatePassenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate Passenger"
+        android:layout_marginTop="24dp" />
+    <ListView
+        android:id="@+id/lvDriverRatings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>

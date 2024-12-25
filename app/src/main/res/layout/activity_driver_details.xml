@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Driver Name Input -->
+    <EditText
+        android:id="@+id/edtDriverName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <!-- Vehicle Type Input -->
+    <EditText
+        android:id="@+id/edtVehicleType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Type"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <!-- Vehicle Model Input -->
+    <EditText
+        android:id="@+id/edtVehicleModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Model"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <!-- Driver Location Input -->
+    <EditText
+        android:id="@+id/edtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your location"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <!-- Save Details Button -->
+    <Button
+        android:id="@+id/btnSaveDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Details"
+        android:layout_marginTop="20dp" />
+
+    <!-- Driver Rating -->
+    <TextView
+        android:id="@+id/lvDriverRatings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating: N/A"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
